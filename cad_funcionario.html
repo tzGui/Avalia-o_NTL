@@ -23,7 +23,7 @@
         </div>
         <div class="col-md-1">
           <label for="idade" class="form-label">Idade</label>
-          <input type="number" class="form-control bg-dark text-light" id="idade" name="idade">
+          <input type="number" class="form-control bg-dark text-light" id="idade" name="idade" min="0">
         </div>
       </div>
 
@@ -97,9 +97,20 @@
           return;
         }
 
+        if (parseInt(idade) < 0) {
+          alert('A idade não pode ser negativa.');
+          return;
+        }
+
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
           alert('Por favor, insira um e-mail válido.');
+          return;
+        }
+
+        const celularRegex = /^\(\d{2}\) \d{5}-\d{4}$/;
+        if (!celularRegex.test(celular)) {
+          alert('O número de celular deve estar no formato (XX) XXXXX-XXXX.');
           return;
         }
         
