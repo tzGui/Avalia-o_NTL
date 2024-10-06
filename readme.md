@@ -1,6 +1,6 @@
 # Avaliação NTL
 
-Veja o vídeo aqui: [Video de utilização do sistema](https://youtu.be/FgKYM4nRBU4)
+Veja o vídeo aqui: [Vídeo de utilização do sistema](https://youtu.be/FgKYM4nRBU4)
 
 ## Índice
 
