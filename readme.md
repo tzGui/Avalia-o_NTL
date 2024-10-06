@@ -25,7 +25,8 @@ A conexão com o banco de dados foi feita utilizando PHP, e o banco escolhido fo
 ### Passo a Passo para Clonar e Executar o Programa
 
 1. **Clone o repositório**:  
-   Abra o terminal e execute o seguinte comando:
+
+Abra o terminal e execute o seguinte comando:
    ```bash
    git clone https://github.com/tzGui/Avalia-o_NTL.git
 
@@ -36,8 +37,10 @@ Coloque o projeto na pasta de desenvolvimento local do seu servidor, como a past
 Crie o banco de dados:
 
 3. **Acesse phpMyAdmin**:
+
 Crie um novo banco de dados com o nome especificado no arquivo de configuração.
 Importe o arquivo SQL incluído no projeto para configurar as tabelas.
 
 4. **Acesse o sistema**:
+
 No navegador, digite o endereço: http://localhost/AvaliaçãoNTL/cad_funcionario.html
