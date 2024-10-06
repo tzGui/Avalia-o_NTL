@@ -28,7 +28,7 @@ A conexão com o banco de dados foi feita utilizando PHP, e o banco escolhido fo
 
 Abra o terminal e execute o seguinte comando:
    ```bash
-   git clone https://github.com/tzGui/Avalia-o_NTL.git
+   git clone https://github.com/tzGui/Avalia-o_NTL.git```
 
 2. **Configure o ambiente**
 
