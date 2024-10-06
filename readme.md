@@ -24,13 +24,13 @@ A conexão com o banco de dados foi feita utilizando PHP, e o banco escolhido fo
 
 ### Passo a Passo para Clonar e Executar o Programa
 
-1. **Clone o repositório**
+1. **Clone o repositório**:
 
 Abra o terminal e execute o seguinte comando:
-   ```bash
-   git clone https://github.com/tzGui/Avalia-o_NTL.git```
 
-2. **Configure o ambiente**
+   git clone https://github.com/tzGui/Avalia-o_NTL.git
+
+2. **Configure o ambiente**:
 
 Certifique-se de que você tenha um servidor web instalado, como o XAMPP e inicie o servidor.
 Coloque o projeto na pasta de desenvolvimento local do seu servidor, como a pasta htdocs no XAMPP.
